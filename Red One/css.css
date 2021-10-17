@@ -1,0 +1,165 @@
+body {
+ 	font-family: Andale Mono;
+ 	color:white;
+ 	width: 100%;
+ 	height: 100vh;
+ 	background-image: linear-gradient(rgba(0,0,0,0.70),
+ 		rgba(0,0,0,0.75)), url(logo2.jpg);
+ 	background-size: cover;
+ 	background-position: center;
+ }
+
+ 	
+ 
+ .logo{
+ 	width: 100px;
+ 	cursor: pointer;
+ }
+
+.box{ width: 800px;
+float: right;
+font-size: 20px;
+
+
+}
+
+
+
+.box ul li{
+	width: 100px;
+	float: left;
+	margin: 20px auto;
+	text-align: center;
+}
+.gallery{
+	margin-left: 150px;
+	background-color: white;
+
+
+}
+.box ul li a {
+	text-decoration: none;
+	color:white;
+	
+	
+}
+.box1{
+	display: block;
+	float: left;
+	width: 300px;
+	padding: 10px;
+	background:white;
+}
+
+img {
+	width: 100%;
+
+}
+
+
+.box1:hover{
+	transform: scale(1.2);
+}
+
+
+
+ .box ul li:hover { background-color: white;}
+ .box ul li a:hover {color: black;}
+
+  .content{
+  	width: 100%;
+  	position: absolute;
+  	top:50%;
+  	text-align: center;
+
+  }
+.content h1{
+	font-size: 60px;
+	margin-top: 80px;
+}
+.team{
+	width: 1000px;
+	padding-left: 200px;
+	
+}
+.team img {
+	width: 100%;
+	border:10px solid rgba(255,255,255,0.5);
+	box-sizing: border-box;
+
+	
+}
+.contact-section{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: none;
+	padding-top: 100px;
+
+}
+.contact-info{
+	max-width: 500px;
+	line-height: 65px;
+	padding-left: 50px;
+	font-size: 20px;
+}
+.contact-form{
+	max-width: 700px;
+	margin-right: 50px;
+}
+.contact-info , .contact-form{
+	flex: 1;
+}
+.contact-form h2{
+	text-align: center;
+	font-size: 35px;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+
+}
+
+.contact-form .text-box{
+	border:none;
+	width: calc(50% -10px);
+	padding:12px;
+	border-radius: 5px;
+	box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+	margin-bottom: 20px;
+	opacity: 0.9;
+}
+
+.contact-form textarea{
+	background:white;
+	color:#fff;
+	border:none;
+	width: 100%;
+}
+.contact-form .send-btn{
+	float:right;
+	background:#fff;
+	color:black;
+	border:none;
+
+	width: 120px;
+	height: 40px;
+	font-size: 12px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+.contact-form .send-btn:hover{
+	background-color: black;
+
+}
+.contact-form .send-btn:hover{
+	color: white;
+}
+
+
+
+
+
+
+
+	
+	
